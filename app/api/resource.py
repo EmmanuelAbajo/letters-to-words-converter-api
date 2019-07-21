@@ -31,8 +31,8 @@ class WordGen(Resource):
                     'message':'Fill in letters'
                     }
 
-            words = gen_words(letters)
-            wordsFormed = word_check(words,word_dict)
+            words = gen_words(letters) # generates the words from the letters
+            wordsFormed = word_check(words,word_dict) # performs a dictionary check on the words formed
             if not wordsFormed:
                 return {'message':'No words found'}
 

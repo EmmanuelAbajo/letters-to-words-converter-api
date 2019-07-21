@@ -12,7 +12,7 @@ def word_check(word_list,word_dict):# Checks out for meaningful words
     return element
 
 
-def gen_word_dict():
+def gen_word_dict(): # loads the dictionary list
     with open('app/api/word_dict','rb') as infile:
         word_dict = pickle.load(infile)
 
