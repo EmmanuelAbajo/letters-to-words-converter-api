@@ -1,3 +1,5 @@
 __pycache__
 venv
 app/api/word_dict
+.vscode/
+app/__init__.pyc
